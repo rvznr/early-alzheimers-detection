@@ -50,17 +50,18 @@ The dataset used in this study is publicly available on Kaggle:
 - **Macro F1-score:** 0.96  
 - **Macro ROC-AUC:** 0.996  
 
-### Classification Report
-| Class              | Precision | Recall | F1-score |
-|--------------------|-----------|--------|----------|
-| MildDemented       | 0.981     | 0.979  | 0.980    |
-| ModerateDemented   | 1.000     | 1.000  | 1.000    |
-| NonDemented        | 0.941     | 0.938  | 0.940    |
-| VeryMildDemented   | 0.917     | 0.923  | 0.920    |
+## Classification Report
 
-### Confusion Matrix
-- **ModerateDemented:** predicted almost perfectly  
-- **VeryMildDemented vs NonDemented:** some overlap, consistent with clinical difficulty in early diagnosis  
+| Class            | Precision | Recall | F1-score | Support |
+|------------------|-----------|--------|----------|---------|
+| MildDemented     | 0.8789    | 0.8114 | 0.8438   | 2004    |
+| ModerateDemented | 0.9980    | 0.9980 | 0.9980   | 2037    |
+| NonDemented      | 0.8126    | 0.7675 | 0.7894   | 2576    |
+| VeryMildDemented | 0.6641    | 0.7545 | 0.7064   | 2183    |
+
+**Overall Accuracy:** 0.8276 (82.8%)  
+**Macro Avg:** Precision 0.8384 • Recall 0.8328 • F1-score 0.8344  
+**Weighted Avg:** Precision 0.8338 • Recall 0.8276 • F1-score 0.8295   
 
 ---
 
