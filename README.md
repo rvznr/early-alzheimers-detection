@@ -46,22 +46,22 @@ The dataset used in this study is publicly available on Kaggle:
 
 ## Results
 
-- **Validation Accuracy:** 95.8%  
-- **Macro F1-score:** 0.96  
-- **Macro ROC-AUC:** 0.996  
+- **Validation Accuracy:** 82.8%  
+- **Macro F1-score:** 0.83  
+- **Macro ROC-AUC:** 0.96  
 
-## Classification Report
-
+### Classification Report
 | Class            | Precision | Recall | F1-score | Support |
 |------------------|-----------|--------|----------|---------|
-| MildDemented     | 0.8789    | 0.8114 | 0.8438   | 2004    |
-| ModerateDemented | 0.9980    | 0.9980 | 0.9980   | 2037    |
-| NonDemented      | 0.8126    | 0.7675 | 0.7894   | 2576    |
-| VeryMildDemented | 0.6641    | 0.7545 | 0.7064   | 2183    |
+| MildDemented     | 0.879     | 0.811  | 0.844    | 2004    |
+| ModerateDemented | 0.998     | 0.998  | 0.998    | 2037    |
+| NonDemented      | 0.813     | 0.768  | 0.789    | 2576    |
+| VeryMildDemented | 0.664     | 0.755  | 0.706    | 2183    |
 
-**Overall Accuracy:** 0.8276 (82.8%)  
-**Macro Avg:** Precision 0.8384 • Recall 0.8328 • F1-score 0.8344  
-**Weighted Avg:** Precision 0.8338 • Recall 0.8276 • F1-score 0.8295   
+**Overall Accuracy:** 82.8%  
+**Macro Avg:** Precision 0.838 • Recall 0.833 • F1-score 0.834  
+**Weighted Avg:** Precision 0.834 • Recall 0.828 • F1-score 0.830  
+  
 
 ---
 
