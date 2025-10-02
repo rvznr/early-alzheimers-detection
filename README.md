@@ -87,7 +87,8 @@ The dataset used in this study is publicly available on Kaggle:
 ## Acknowledgements
 - Dataset: [Kaggle – Alzheimer’s Multiclass MRI Dataset](https://www.kaggle.com/datasets/aryansinghal10/alzheimers-multiclass-dataset-equal-and-augmented)  
 - Base model: EfficientNet (Tan & Le, 2019)  
-- Libraries: TensorFlow, Keras, NumPy, Matplotlib, OpenCV  
+- Libraries: TensorFlow, Keras, NumPy, Matplotlib, OpenCV
+- Kaggle link: https://www.kaggle.com/code/ravzanursisik/early-alzheimer-detection-with-mri
 
 ---
 
